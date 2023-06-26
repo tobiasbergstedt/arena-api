@@ -15,7 +15,7 @@ import teams from './routes/teams.js';
 import divisions from './routes/divisions.js';
 
 // Konfiguration
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 1337;
 const distPath = path.join(__dirname, '/public/');
 console.log('distpath: ', distPath);
 
